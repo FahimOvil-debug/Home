@@ -1,0 +1,134 @@
+
+body{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	scroll-behavior: smooth;
+}
+.btn-link.focus, .btn-link:focus {
+    text-decoration: none;
+}
+.btn-link:hover {
+    color: #0056b3;
+     text-decoration: none; 
+}
+.btn.focus, .btn:focus {
+    outline: 0;
+     box-shadow: none; 
+}
+
+/*menu-area*/
+.main-menu {
+    border-top: 5px solid gray;
+    min-height: 120px;
+    background-color: azure;
+    /*position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 9;*/
+}
+.navbar-brand img{
+	max-height: 105px;
+}
+.main-menu .navbar-nav li.nav-item {
+    margin-left: 35px;
+}
+.main-menu .navbar-nav li.nav-item .nav-link {
+    font-size: 20px;
+    font-weight: 500;
+    color: gray;  
+}
+.navbar-brand {
+    display: inline-block;
+     padding-top: 0px; 
+     padding-bottom: 0px; 
+     margin-right: 0px; 
+    font-size: 1.25rem;
+    line-height: inherit;
+    white-space: nowrap;
+}
+
+/*Banner-area*/
+.banner-area{
+	padding-bottom: 50px;
+	position: relative;
+}
+.banner-area .carousel-item h5 {
+    font-size: 45px;     
+}
+.banner-area .carousel-item p {
+    font-size: 30px;     
+}
+
+/*Card-area*/
+.card-area .c-header {
+    margin-bottom: 35px;
+    color: gray;
+    font-size: 45px;
+    position: relative;
+    color: tomato;
+}
+.card-area .c-header::before {
+    content: "MY CARD";
+    position: absolute;
+    top: 0px;
+    left: 42%;
+    opacity: 0;
+    visibility: hidden;
+    z-index: -1;
+    transition: .3s;
+    font-size: 80px;
+    color: black;
+}
+.card-area .c-header:hover.c-header::before{
+	opacity: 0.25;
+	visibility: visible;
+	top: -25px;
+}
+.card-area .card-header {
+    font-size: 20px;
+    font-weight: 700;
+    color: blue;
+    background-color: red;
+}
+.card-area .card-text {
+    font-size: 15px;
+    font-weight: 500;
+    color: darkblue;
+}
+.card-area .card-footer i {
+    color: red;
+}
+.accordion>.card>.card-header:hover {
+    background: #eb4d4b;
+    transition: .5s;
+    color: red;
+}
+.btn-link:hover {
+    color: #c7ecee;
+    text-decoration: none;
+}
+/*MY INFO AREA*/
+.my_info{
+	background-color: azure;
+
+}
+.info-head {
+    color: red;
+    text-transform: uppercase;
+}
+.my_info td.tittle {
+    border-left: 1px solid black;
+}
+.my_info .card-header {
+    background: #2f0d0d;
+}
+.cl{
+	color: #fff;
+}
+
+
+/*Contact Area*/
+
+
